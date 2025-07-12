@@ -23,7 +23,7 @@ Automatically generates a Spotify playlist based on the Billboard Hot 100 for a 
 ```bash
 pip install -r requirements.txt
 python main.py
-
+```
 ---
 
 #### 🎵 [Billboard Spotify Playlist Generator](https://github.com/aks-lodhi07/billboard-spotify-playlist-generator)
@@ -76,6 +76,7 @@ A simple password manager app built using Tkinter.
 
 ```bash
 python main.py
+````
 
 ---
 
