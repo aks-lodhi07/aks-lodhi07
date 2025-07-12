@@ -26,23 +26,21 @@ python main.py
 
 ---
 
-#### 🥗 [Nutrition Tracker with Google Sheets Integration](https://github.com/aks-lodhi07/Nutrition-tracker-with-automated-logs-in-gooogle-sheets)
+#### 🎵 [Billboard Spotify Playlist Generator](https://github.com/aks-lodhi07/billboard-spotify-playlist-generator)
+Generates a Spotify playlist based on the Billboard Hot 100 chart for a given date using web scraping and Spotify API.
 
-Logs your daily workout using natural language input and stores it in Google Sheets.
-
-**Tech Stack:** `Python`, `Requests`, `dotenv`, `Nutritionix API`, `Sheety API`
+**Tech Stack:** `Python`, `BeautifulSoup`, `Requests`, `Spotipy`, `SpotifyOAuth`, `os`
 
 **Features:**
-
-* Converts workout sentence into structured calorie data
-* Automatically logs workout stats to Google Sheets
+- Scrapes Billboard’s top 100 songs for any given date
+- Authenticates with Spotify via OAuth
+- Searches Spotify for each song and creates a private playlist automatically
 
 **Environment Variables:**
-
 ```env
-API_ID=your_nutritionix_app_id
-API_KEY=your_nutritionix_app_key
-YOUR_BEARER_TOKEN=your_sheety_bearer_token
+SPOTIFY_CLIENT_ID=your_spotify_client_id  
+SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+
 ```
 
 **Usage:**
@@ -51,28 +49,14 @@ YOUR_BEARER_TOKEN=your_sheety_bearer_token
 python main.py
 ```
 
-**Sample Input:**
+Input Example:
 
-> I did 30 minutes of cycling and 10 pushups
+Enter a date in YYYY-MM-DD format to travel back in time: 2022-05-10
 
-**Output:**
+Output Example:
 
-```json
-{
-  "exercises": [
-    {
-      "name": "cycling",
-      "duration_min": 30,
-      "nf_calories": 245
-    },
-    {
-      "name": "pushups",
-      "duration_min": 5,
-      "nf_calories": 50
-    }
-  ]
-}
-```
+Found 100 songs from 2022-05-10's Billboard Hot 100.
+Playlist "2022-05-10 Billboard 100" created on your Spotify!
 
 ---
 
