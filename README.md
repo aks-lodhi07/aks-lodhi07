@@ -5,25 +5,6 @@ Hi there! I'm **Akshat Lodhi**, a B.Tech Computer Science student who loves solv
 ---
 
 ### 🚀 Projects I'm Proud Of
-
-#### 🎵 [Billboard Spotify Playlist Generator](https://github.com/aks-lodhi07/billboard-spotify-playlist-generator)
-
-Automatically generates a Spotify playlist based on the Billboard Hot 100 for a given date.
-
-**Tech Stack:** `Python`, `BeautifulSoup`, `Spotipy`, `OAuth`
-
-**Features:**
-
-* Scrapes Billboard's top 100 songs for any date
-* Authenticates with your Spotify account
-* Creates a private Spotify playlist with the songs
-
-**How to Run:**
-
-```bash
-pip install -r requirements.txt
-python main.py
-```
 ---
 
 #### 🎵 [Billboard Spotify Playlist Generator](https://github.com/aks-lodhi07/billboard-spotify-playlist-generator)
