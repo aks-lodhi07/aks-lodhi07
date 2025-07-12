@@ -92,7 +92,8 @@ A simple password manager app built using Tkinter.
 
 ```bash
 python main.py
-```
+
+---
 
 ### 🏆 GitHub Highlights
 
